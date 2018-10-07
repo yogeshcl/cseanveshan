@@ -1,0 +1,103 @@
+* { 
+ margin: 0; 
+ padding: 0; 
+}
+html { background: #D9D3CF; }
+body { color: #fd4903 }
+
+#page-wrap { width: 100%; margin: 20px auto; position: relative; }
+
+#banner {
+			width: 800px;
+			height: 500px;
+			position: relative;
+			
+			-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.75);
+      left:30px;
+	}
+
+#banner div {
+			position: absolute;
+}
+img{
+  width:100%;
+  max-width:100%;
+  max-height:100%;
+}
+@-webkit-keyframes wipe {
+  0% {
+    -webkit-mask-position: 0 0;
+  }
+100% {
+  -webkit-mask-position: -1200px -1200px;
+}
+}
+
+
+/*Images 2*/
+#banner div:nth-child(1) {
+  -webkit-animation: wipe 6s infinite;
+  -webkit-animation-delay: 12s;
+  -webkit-animation-direction: alternate;
+  -webkit-mask-size: 2000px 2000px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, 
+    color-stop(0.00,  rgba(0,0,0,1)),
+    color-stop(0.45,  rgba(0,0,0,1)),
+    color-stop(0.50,  rgba(0,0,0,0)),
+    color-stop(0.55,  rgba(0,0,0,0)),
+    color-stop(1.00,  rgba(0,0,0,0)));
+}
+/*Images 3*/
+#banner div:nth-child(2) {
+  -webkit-animation: wipe 6s infinite;
+  -webkit-animation-delay: 9s;
+  -webkit-animation-direction: alternate;
+  -webkit-mask-size: 2000px 2000px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, 
+    color-stop(0.00,  rgba(0,0,0,1)),
+    color-stop(0.45,  rgba(0,0,0,1)),
+    color-stop(0.50,  rgba(0,0,0,0)),
+    color-stop(0.55,  rgba(0,0,0,0)),
+    color-stop(1.00,  rgba(0,0,0,0)));
+}
+
+/*Images 4*/
+#banner div:nth-child(3) {
+  -webkit-animation: wipe 6s infinite;
+  -webkit-animation-delay: 6s;
+  -webkit-animation-direction: alternate;
+  -webkit-mask-size: 2000px 2000px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, 
+    color-stop(0.00,  rgba(0,0,0,1)),
+    color-stop(0.45,  rgba(0,0,0,1)),
+    color-stop(0.50,  rgba(0,0,0,0)),
+    color-stop(0.55,  rgba(0,0,0,0)),
+    color-stop(1.00,  rgba(0,0,0,0)));
+}
+
+/*Images 5*/
+#banner div:nth-child(4) {
+  -webkit-animation: wipe 6s infinite;
+  -webkit-animation-delay: 3s;
+  -webkit-animation-direction: alternate;
+  -webkit-mask-size: 2000px 2000px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, 
+    color-stop(0.00,  rgba(0,0,0,1)),
+    color-stop(0.45,  rgba(0,0,0,1)),
+    color-stop(0.50,  rgba(0,0,0,0)),
+    color-stop(0.55,  rgba(0,0,0,0)),
+    color-stop(1.00,  rgba(0,0,0,0)));
+}
+/*Images 1*/
+#banner div:nth-child(5) {
+  -webkit-animation: wipe 6s infinite;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-direction: alternate;
+  -webkit-mask-size: 2000px 2000px;
+  -webkit-mask-image: -webkit-gradient(linear, left top, right bottom, 
+    color-stop(0.00,  rgba(0,0,0,1)),
+    color-stop(0.45,  rgba(0,0,0,1)),
+    color-stop(0.50,  rgba(0,0,0,0)),
+    color-stop(0.55,  rgba(0,0,0,0)),
+    color-stop(1.00,  rgba(0,0,0,0)));
+}

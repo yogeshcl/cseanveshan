@@ -8,5 +8,5 @@ Licence URI: http://www.os-templates.com/template-terms
 File: Featured Slider CSS
 */
 
-#waterwheelCarousel{display:block; width:960px; height:250px; margin:0 auto; padding:25px 0 0 0; background-color:#151515;}
+#waterwheelCarousel{display:block; width:960px; height:250px; margin:0 auto; padding:25px 0 0 0; background-color:transparent;}
 #waterwheelCarousel > img{display:none; cursor:pointer;}
