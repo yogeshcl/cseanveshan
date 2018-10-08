@@ -6,8 +6,12 @@
 <title>Anveshan</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<link rel="stylesheet" href="css/slidestyle.css">
   <link href="layout/styles/animate.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/textstyle.css">
+
+   
 
 
 <script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
@@ -17,29 +21,22 @@
 <!-- / Waterwheel Carousel -->
 <link rel="icon" href="favicon.ico" type="image/x-icon"   />
 
+
 </head>
-<body id="top">
+<body id="top
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 <div id="particles-js"></div>
 
-<!-- stats - count particles -->
-<div class="count-particles">
-  <span class="js-count-particles">--</span> particles
-</div>
-
-<!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
   <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
 <script src='https://threejs.org/examples/js/libs/stats.min.js'></script>
-
-  
-
-    <script  src="js/index.js"></script>
+<script  src="js/index.js"></script>
 <div class="wrapper col1">
   <div id="header">
     <div class="fl_left">
       <h1><a href="index.html">Anveshan</a></h1>
       <p>Computer Science, JSSATE </p>
     </div>
-    <div class="fl_right"><a href="www.jssate.ac.in"><img src="images/jss/jssateb.png" alt="" /></a></div>
+    <div class="fl_right"><a href="www.jssate.ac.in"><img src="images/jss/jssate.png" alt="" /></a></div>
     <br class="clear" />
   </div>
 </div>
@@ -49,14 +46,10 @@
     <div id="topnav">
       <ul>
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="pages/style-demo.html">Department</a></li>
-        <li><a href="pages/full-width.html">Coding club</a></li>
-        <li><a href="#">Events</a>
-          <ul>
-            <li><a href="#">Anveshan 2018</a></li>
-            <li><a href="#">Verver 2018</a></li>
-            <li><a href="#">Yodha</a></li>
-          </ul>
+        <li><a href="http://jssateb.ac.in/department/computer-science-andengineering/">Department</a></li>
+        
+        <li><a href="pages/event.html">Events</a>
+         
         </li>
         <li class="last"><a href="http://jssateb.ac.in/about-jssate/">About JSSATE</a></li>
       </ul>
@@ -73,7 +66,17 @@
     <br class="clear" />
   </div>
 </div>
-<!-- ####################################################################################################### -->
+<!---slide showwww---------------------------------->
+<div id="page-wrap" align="center">
+<div id="banner">
+			<div><img src=""></div>
+			<div><img src="https://www.setaswall.com/wp-content/uploads/2017/12/Computer-Tech-Wallpaper-19-800x500.jpg"></div>
+			<div><img src="http://www.optimsupport.com/images/made/uploads/images/HealthcareTechnology_800_500_s_c1.jpg"></div>
+			<div><img src="http://depo8.com/wp-content/uploads/2015/07/Hawk-Hound-Camera-Kit-800-x-500-FEAT.png"></div>
+			<div><img src="https://www.constructionexec.com/assets/site_18/images/article/031318100003.jpg?width=800"></div>
+</div>
+</div>
+<!-- ####################################################################################################### --
 <div class="wrapper col3">
   <div id="waterwheelCarousel">
     <img src="images/carousel/1.jpg" alt="" />
@@ -90,12 +93,61 @@
   </div>
 </div>
 <!-- ####################################################################################################### -->
+
+<!-------------------------------------------------------------------------------------------------------------->
+
 <div class="wrapper col4">
   <div id="featured_intro">
     <div class="fl_left">
-      <h2>  ARE   YOU READY!!</h2>
+      <h2>  ARE U READY!! 		  
+<p id="demo"></p>
+
+<script>
+var countDownDate = new Date("October 11, 2018 9:00:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("demo").style.fontSize = "60px";
+ document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Anveshan 2018 ";
+  }
+  }, 1000);
+</script></h2>
+	  <div class="content">
+  <div class="content__container">
+    <p class="content__container__text">
+      Anveshan
+    </p>
+    
+    <ul class="content__container__list">
+      <li class="content__container__list__item">Tech_Quiz</li>
+      <li class="content__container__list__item">QR Hunt</li>
+      <li class="content__container__list__item">Pubg</li>
+      <li class="content__container__list__item">Blind_Coding</li>
+	  <li class="content__container__list__item">Typeracer</li>
+      <li class="content__container__list__item">Code_Wars</li>
+      <li class="content__container__list__item">Google_hunt</li>
+      <li class="content__container__list__item">Logo_Desgign</li>
+	  <li class="content__container__list__item">Basketball</li>
+      <li class="content__container__list__item">Pair_progamming</li>
+      <li class="content__container__list__item">Mock_placment</li>
+      <li class="content__container__list__item">Tech_wiz</li>
+    </ul>
+  </div>
+</div>
     </div>
+
+	
     <div class="fl_right">
+	
       <h1>ANVESHAN </h1>
       <p>Brace yourself Bit By Bit with a high spirt keep thinking wihtout blinking it's time to Decode with in implode the department of CSE.</p>
       <p class="readmore"><a href="http://jssateb.ac.in/">Visit College website.</a></p>
@@ -103,13 +155,16 @@
     <br class="clear" />
   </div>
 </div>
+
+
 <!-- ####################################################################################################### -->
 <div class="wrapper col5">
   <div id="footer">
     <div class="footbox twitter">
       <h2>Follow us.</h2>
       <ul>
-        <li><a href="http://www.instagram.com/anveshan_jss">@anveshan_jss</a> nibhpede faucibulum ris phasellentum elit sed hend quisque.  1 day ago</li>
+        <li><a href="http://www.instagram.com/anveshan_jss">@anveshan_jss</a> Follow us at on instagram .</li>
+		 <li><a href="http://www.facebook.com/anveshan_jss">@anveshan_jss</a> Follow us at on Facebook .</li>
 
       </ul>
     </div>
@@ -132,20 +187,14 @@
         <li class="last"><a href="#"></a></li>
       </ul>
     </div>
-    <div class="footbox banners last">
-      <h2>Sponsers </h2>
-      <ul>
-        <li><a href="#"><img src="images/demo/200x150.gif" alt="" /></a></li>
-        <li><a href="#"><img src="images/demo/200x150.gif" alt="" /></a></li>
-      </ul>
-    </div>
+    
     <br class="clear" />
   </div>
 </div>
 <!-- ####################################################################################################### -->
 <div class="wrapper col6">
   <div id="copyright">
-    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="www.jssanveshan.com">Jssanveshan.com</a></p>
+    <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="www.jssanveshan.com">Jssanveshan.tech</a></p>
     <p class="fl_right">We<a target="_blank" href="http://jssateb.ac.in/" title="Free Website Templates"> JSSATE</a></p>
     <br class="clear" />
   </div>

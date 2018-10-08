@@ -8,7 +8,7 @@ Licence URI: http://www.os-templates.com/template-terms
 File: Navigation CSS
 */
 
-#topnav{display:block; float:left; margin:0; padding:0; font-size:13px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif;}
+#topnav{display:block; float:left; margin:0; padding:0; font-size:13px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif, beyno;}
 #topnav ul, #topnav li{float:left; list-style:none; margin:0; padding:0;}
 #topnav li a:link, #topnav li a:visited, #topnav li a:hover{display:block; margin:0; padding:15px 20px; color:#FFFFFF; background-color:#562051; border-left:2px solid #562051;}
 #topnav ul ul li a:link, #topnav ul ul li a:visited{border:none;}
@@ -26,7 +26,7 @@ File: Navigation CSS
 
 /* ----------------------------------------------Column Navigation------------------------------------- */
 
-#column .subnav{display:block; width:250px; padding:25px; background-color:#1F1F1F; margin-bottom:30px;}
+#column .subnav{display:block; width:250px; padding:250px; background-color:#1F1F1F; margin-bottom:30px;}
 #column .subnav h2{margin:0 0 20px 0; padding:0 0 14px 0; font-size:20px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif; color:#666666; background-color:#1F1F1F; line-height:normal; border-bottom:1px dashed #666666;}
 #column .subnav ul{margin:0; padding:0; list-style:none;}
 #column .subnav li{margin:0 0 3px 0; padding:0;}
