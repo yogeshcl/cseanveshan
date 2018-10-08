@@ -36,7 +36,7 @@
       <h1><a href="index.html">Anveshan</a></h1>
       <p>Computer Science, JSSATE </p>
     </div>
-    <div class="fl_right"><a href="www.jssate.ac.in"><img src="images/jss/jssateb.png" alt="" /></a></div>
+    <div class="fl_right"><a href="www.jssate.ac.in"><img src="images/jss/jssate.png" alt="" /></a></div>
     <br class="clear" />
   </div>
 </div>
@@ -103,7 +103,28 @@
 <div class="wrapper col4">
   <div id="featured_intro">
     <div class="fl_left">
-      <h2>  ARE U READY!!</h2>
+      <h2>  ARE U READY!! 		  
+<p id="demo"></p>
+
+<script>
+var countDownDate = new Date("October 11, 2018 9:00:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+  document.getElementById("demo").style.fontSize = "60px";
+ document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "Anveshan 2018 ";
+  }
+  }, 1000);
+</script></h2>
 	  <div class="content">
   <div class="content__container">
     <p class="content__container__text">
@@ -127,6 +148,8 @@
   </div>
 </div>
     </div>
+
+	
     <div class="fl_right">
 	
       <h1>ANVESHAN </h1>
