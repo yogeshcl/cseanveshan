@@ -5,11 +5,11 @@
 html { background: #D9D3CF; }
 body { color: #fd4903 }
 
-#page-wrap { width: 100%; margin: 20px auto; position: relative; }
+#page-wrap {  margin: 20px auto; }
 
 #banner {
-			width: 800px;
-			height: 500px;
+			width: 500px;
+			height: 700px;
 			position: relative;
 			
 			-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.75);
