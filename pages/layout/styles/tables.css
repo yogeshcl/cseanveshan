@@ -8,7 +8,11 @@ Licence URI: http://www.os-templates.com/template-terms
 File: Tables CSS
 */
 
+<<<<<<< HEAD
 table{width:100%; border-collapse:collapse; table-layout:auto; vertical-align:top; margin-bottom:25px; border:1px solid #999999;}
+=======
+table{width:100%; border-collapse:collapse; table-layout:auto; vertical-align:top; margin-bottom:15px; border:1px solid #999999;}
+>>>>>>> fddc897e4c79b836b9cf12aa594708988fde6817
 table thead th{color:#FFFFFF; background-color:#000000; border:1px solid #999999; border-collapse:collapse; text-align:center; table-layout:auto; vertical-align:middle;}
 table tbody td{vertical-align:top; border-collapse:collapse; border-left:1px solid #999999; border-right:1px solid #999999;}
 table thead th, table tbody td{padding:5px; border-collapse:collapse;}

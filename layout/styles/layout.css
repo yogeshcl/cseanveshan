@@ -14,12 +14,19 @@ File: Layout CSS
 @import url("featured_slide.css");
 
 html{overflow-y:scroll;}
+<<<<<<< HEAD
 body{margin:0; padding:0; font-size:33px; font-family:Georgia, "Times New Roman", Times, serif, beyno; color:#999999; background-color:#151515;}
+=======
+body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman", Times, serif, BEYNO; color:#999999; background-color:#151515;}
+>>>>>>> fddc897e4c79b836b9cf12aa594708988fde6817
 @font-face{
 	font-familly:BEYNO;
 	src:url('BEYNO.ttf');
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> fddc897e4c79b836b9cf12aa594708988fde6817
 .justify{text-align:justify;}
 .bold{font-weight:bold;}
 .center{text-align:center;}
@@ -60,9 +67,15 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 /* ----------------------------------------------Header------------------------------------- */
 
 #header{padding:2px 0 20px 0;}
+<<<<<<< HEAD
 #header .fl_left{display:block; float:left; font-family:beyno; margin-top:17px; overflow:hidden;}
 #header .fl_right{display:block; float:right; width:468px; height:60px; margin-top:21px; overflow:hidden;}
 #header h1, #header p, #header ul{margin:0; padding:0; list-style:none; font-family:beyno; line-height:normal;}
+=======
+#header .fl_left{display:block; float:left; font-family:BEYNO; margin-top:17px; overflow:hidden;}
+#header .fl_right{display:block; float:right; width:468px; height:60px; margin-top:21px; overflow:hidden;}
+#header h1, #header p, #header ul{margin:0; padding:0; list-style:none; font-family:BEYNO; line-height:normal;}
+>>>>>>> fddc897e4c79b836b9cf12aa594708988fde6817
 #header h1 a{font-size:36px; color:#E60498; background-color:#000000;}
 #header .fl_left p{margin-top:5px;}
 
@@ -82,9 +95,15 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #featured_intro{padding:0 0 20px 0;}
 #featured_intro .fl_left{display:block; float:left; width:470px;}
+<<<<<<< HEAD
 #featured_intro .fl_left h2{margin-top:40px; padding:30px; font-size:40px; color:#c0c0c0; background-color:transparent; text-transform:uppercase; line-height:normal;}
 #featured_intro .fl_right{display:block; float:right; width:450px; padding-top:65px; text-align:justify;  size=28px;}
 #featured_intro .fl_right .readmore{display:block; text-align:right; font-weight:bold; }
+=======
+#featured_intro .fl_left h2{margin:0; padding:0; font-size:120px; color:#585858; background-color:transparent; text-transform:uppercase; line-height:normal;}
+#featured_intro .fl_right{display:block; float:right; width:450px; padding-top:65px; text-align:justify; line-height:1.5em; font-size=18px;}
+#featured_intro .fl_right .readmore{display:block; text-align:right; font-weight:bold;}
+>>>>>>> fddc897e4c79b836b9cf12aa594708988fde6817
 
 /* ----------------------------------------------Content------------------------------------- */
 

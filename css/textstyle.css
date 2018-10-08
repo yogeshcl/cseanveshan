@@ -7,11 +7,18 @@
           transform: translate(-50%, -50%);
   height: 160px;
   overflow: hidden;
+<<<<<<< HEAD
   font-family: beyno;
   font-size: 35px;
   line-height: 40px;
   color: #808080;
   background:transparent;
+=======
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  line-height: 40px;
+  color: #ecf0f1;
+>>>>>>> fddc897e4c79b836b9cf12aa594708988fde6817
 }
 .content__container {
   font-weight: 600;

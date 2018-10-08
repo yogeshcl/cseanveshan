@@ -8,7 +8,11 @@ Licence URI: http://www.os-templates.com/template-terms
 File: Navigation CSS
 */
 
+<<<<<<< HEAD
 #topnav{display:block; float:left; margin:0; padding:0; font-size:13px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif, beyno;}
+=======
+#topnav{display:block; float:left; margin:0; padding:0; font-size:13px; font-weight:normal; font-family:Georgia, "Times New Roman", Times, serif, BEYNO;}
+>>>>>>> fddc897e4c79b836b9cf12aa594708988fde6817
 #topnav ul, #topnav li{float:left; list-style:none; margin:0; padding:0;}
 #topnav li a:link, #topnav li a:visited, #topnav li a:hover{display:block; margin:0; padding:15px 20px; color:#FFFFFF; background-color:#562051; border-left:2px solid #562051;}
 #topnav ul ul li a:link, #topnav ul ul li a:visited{border:none;}

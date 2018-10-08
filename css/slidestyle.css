@@ -5,11 +5,19 @@
 html { background: #D9D3CF; }
 body { color: #fd4903 }
 
+<<<<<<< HEAD
 #page-wrap {  margin: 20px auto; }
 
 #banner {
 			width: 500px;
 			height: 700px;
+=======
+#page-wrap { width: 100%; margin: 20px auto; position: relative; }
+
+#banner {
+			width: 800px;
+			height: 500px;
+>>>>>>> fddc897e4c79b836b9cf12aa594708988fde6817
 			position: relative;
 			
 			-webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.75);
